@@ -46,6 +46,10 @@
       "type" : "Success"
     }, {
       "fromIndex" : 7,
+      "toIndex" : 0,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
       "toIndex" : 1,
       "type" : "Success"
     } ],
@@ -73,8 +77,8 @@
       "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 909,
-        "layoutY" : 541
+        "layoutX" : 1093,
+        "layoutY" : 490
       },
       "configuration" : {
         "scope" : "CLIENT_SCOPE",
