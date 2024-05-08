@@ -52,6 +52,7 @@
     "transportType" : "MQTT",
     "type" : "DEFAULT"
   },
+  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }

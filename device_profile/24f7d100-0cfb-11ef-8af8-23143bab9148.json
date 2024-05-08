@@ -1,23 +1,20 @@
 {
   "entityType" : "DEVICE_PROFILE",
   "entity" : {
-    "default" : false,
+    "default" : true,
     "defaultDashboardId" : null,
     "defaultEdgeRuleChainId" : null,
     "defaultQueueName" : null,
-    "defaultRuleChainId" : {
-      "entityType" : "RULE_CHAIN",
-      "id" : "252549a0-0cfb-11ef-8af8-23143bab9148"
-    },
-    "description" : "",
+    "defaultRuleChainId" : null,
+    "description" : "Default device profile",
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "4905a1a0-0d08-11ef-8af8-23143bab9148"
+      "id" : "24f7d100-0cfb-11ef-8af8-23143bab9148"
     },
     "image" : null,
-    "name" : "ada",
+    "name" : "default",
     "profileData" : {
       "alarms" : null,
       "configuration" : {
