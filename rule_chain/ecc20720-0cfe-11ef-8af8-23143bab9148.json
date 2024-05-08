@@ -26,10 +26,6 @@
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 2,
-      "toIndex" : 1,
-      "type" : "Post attributes"
-    }, {
-      "fromIndex" : 2,
       "toIndex" : 3,
       "type" : "RPC Request from Device"
     }, {
@@ -41,8 +37,16 @@
       "toIndex" : 5,
       "type" : "RPC Request to Device"
     }, {
+      "fromIndex" : 2,
+      "toIndex" : 7,
+      "type" : "Post attributes"
+    }, {
       "fromIndex" : 6,
       "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 1,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 6,
@@ -202,6 +206,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 723,
+        "layoutY" : 476
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0d7b7310-0d00-11ef-8af8-23143bab9148"
+      },
+      "name" : "11",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
